@@ -1,0 +1,32 @@
+
+/* jiji*/
+#parrafo{
+    color:#176d74;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+img{
+    border-radius: 25px 50px ;
+}
+
+li > a{
+    color: rgb(20, 83, 62) !important;
+ 
+}
+.boton{
+    background-color: #176d74;
+    color: white;
+    margin-bottom:30px;
+}
+.boton:hover{color:rgb(30, 189, 210)}
+footer{
+    background-color: #176d74;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    
+}
+
+li > a{
+    color: yellow;
+}
+
