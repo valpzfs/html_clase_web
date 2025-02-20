@@ -1,5 +1,14 @@
 
 /* jiji*/
+
+body{
+    text-align: center;
+    background: linear-gradient(to right, #acbcc9, #7ba2a4);
+}
+
+h1{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
 #parrafo{
     color:#176d74;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -26,7 +35,10 @@ footer{
     
 }
 
-li > a{
-    color: yellow;
+blockquote-footer{
+    color:black;
 }
 
+#about{
+    padding: 80px;
+}
