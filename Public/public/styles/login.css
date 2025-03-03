@@ -1,0 +1,35 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: linear-gradient(to right, #acbcc9, #7ba2a4);
+}
+
+.form-signin {
+  max-width: 350px;
+  padding: 2rem;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-floating input {
+  border-radius: 5px;
+}
+
+#btn {
+  background-color: #007bff;
+  border: none;
+  transition: background 0.3s ease;
+}
+
+#btn:hover {
+  background-color: #0056b3;
+}
+
+.text-body-secondary {
+  font-size: 0.9rem;
+  color: #6c757d;
+  text-align: center;
+}

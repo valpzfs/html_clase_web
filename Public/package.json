@@ -1,0 +1,23 @@
+{
+  "name": "public",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "home_login.js",
+  "scripts": {
+    "start": "node home_login.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/valpzfs/html_clase_web.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs":{
+    "url": "https://github.com/valpzfs/html_clase_web/issues"
+  },
+  "homepage": "https://github.com/valpzfs/html_clase_web#readme",
+  "description": "",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
