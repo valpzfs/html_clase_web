@@ -1,6 +1,21 @@
+window.addEventListener("load", () => {
+    console.log("Verificando sesión...");
+    const userId = sessionStorage.getItem("user_id");
+
+    if (!userId) {
+        console.log("No hay sesión activa, redirigiendo al login...");
+        setTimeout(() => {
+            window.location.href = "/Paginas/home.html";
+        }, 2000); // Espera 2 segundos antes de redirigir
+    } else {
+        console.log("Sesión activa, usuario ID:", userId);
+    }
+});
+
+/*
 window.onload = () =>{
     if (!sessionStorage.name){
-        window.location = "../index.html"
+        window.location = "./Paginas/home.html"
     }
 };
 
@@ -12,7 +27,7 @@ logout.addEventListener("click", ()=>{
     sessionStorage.removeItem("name");
 })
 
-
+*/
 /* SOPCION DE MENSAJES
 const chat = document.getElementById("chat");
 const msg = document.getElementById("msg");
